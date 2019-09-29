@@ -1,5 +1,7 @@
 # wuminzhe/rails-template
 
+This rails-template is forked from dao42 but changing database dependencies to MySQL.
+
 **wuminzhe/rails-template has supported the newest rails 6.0.0 project setup**
 
 Maybe the best & newest & fastest rails template for senior rails developer.
