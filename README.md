@@ -1,6 +1,6 @@
-# wuminzhe/rails-template
+This rails template is forked from [dao42/rails-template](https://github.com/dao42/rails-template) but changing database dependencies to MySQL.
 
-This rails-template is forked from dao42 but changing database dependencies to MySQL.
+# wuminzhe/rails-template
 
 **wuminzhe/rails-template has supported the newest rails 6.0.0 project setup**
 
@@ -8,7 +8,7 @@ Maybe the best & newest & fastest rails template for senior rails developer.
 
 It maybe the best starting for your new rails project.
 
-An example built with rails-template: https://github.com/wuminzhe/rails-template-example
+An example built with rails-template: https://github.com/dao42/rails-template-example
 
 
 ## Core Idea
@@ -57,6 +57,10 @@ Then,
 2. Create your own rails app applying `rails-template`
 
     `$ rails new myapp -m https://raw.github.com/wuminzhe/rails-template/master/composer.rb`
+
+    or
+
+    `$ rails new myapp -m https://gitee.com/wuminzhe/rails-template/raw/master/composer.rb`
 
     Important!! replace `myapp` to your real project name, we will generate lots of example files by this name.
 
