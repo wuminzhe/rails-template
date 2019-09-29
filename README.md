@@ -60,7 +60,7 @@ Then,
 
     or
 
-    `$ rails new myapp -m https://gitee.com/wuminzhe/rails-template/raw/master/composer.rb`
+    `$ rails new myapp -m https://gitee.com/wuminzhe/rails-template/raw/master/composer-gitee.rb`
 
     Important!! replace `myapp` to your real project name, we will generate lots of example files by this name.
 
