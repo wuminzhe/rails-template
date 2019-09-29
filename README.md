@@ -122,13 +122,6 @@ Other gems integrated in rails-template are worth learning seriously.
 
 * [x] Add AdminLTE as admin dashboard
 
-## Projects that using `wuminzhe/rails-template`
-
-Welcome to pull request here to update this if you choose `wuminzhe/rails-template` for your new rails app.
-
-* [danmai weapp SAAS platform](https://www.danmai.com.cn)
-* [wuminzhe official website](https://www.wuminzhe.com)
-
 ## LICENSE
 
 MIT
