@@ -22,14 +22,6 @@ An example built with rails-template: https://github.com/dao42/rails-template-ex
 
 Install dependencies:
 
-* postgresql
-
-    ```bash
-    $ brew install postgresql
-    ```
-
-    Ensure you have already initialized a user with username: `postgres` and password: `postgres`( e.g. using `$ createuser -d postgres` command creating one )
-
 * rails 6
 
     Using `rbenv`, update `ruby` up to 2.5 or higher, and install `rails 6.0.0`
@@ -100,7 +92,7 @@ Other gems integrated in rails-template are worth learning seriously.
 * bootstrap 4
 * font-awesome 5
 * figaro
-* postgres
+* mysql2
 * slim
 * simple_form
 * high_voltage

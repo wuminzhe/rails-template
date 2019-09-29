@@ -8,12 +8,12 @@
 
 Model.new(:myapp, 'Description for myapp') do
 
-  database PostgreSQL do |db|
+  database MySQL do |db|
     db.name               = "myapp_production"
-    db.username           = "postgres"
-    db.password           = "postgres"
+    db.username           = "root"
+    db.password           = "root"
     db.host               = "localhost"
-    db.port               = 5432
+    db.port               = 3306
   end
 
   archive :rails_config do |archive|

@@ -1,29 +1,26 @@
 development:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
+  adapter:  mysql2
+  encoding: utf8
   database: myapp_development
-  pool:     5
-  username: postgres
-  password: postgres
-  template: template0
+  username: root
+  password: root
+  host:     localhost
+  port:     3306
 
 test:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
+  adapter:  mysql2
+  encoding: utf8
   database: myapp_test
-  pool:     5
-  username: postgres
-  password: postgres
-  template: template0
+  username: root
+  password: root
+  host:     localhost
+  port:     3306
 
 production:
-  adapter:  postgresql
-  host:     localhost
-  encoding: unicode
+  adapter:  mysql2
+  encoding: utf8
   database: myapp_production
-  pool:     16
-  username: postgres
-  password: postgres
-  template: template0
+  username: root
+  password: root
+  host:     localhost
+  port:     3306

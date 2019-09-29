@@ -5,14 +5,6 @@ The source code of myapp
 
 Install dependencies:
 
-* postgresql
-
-    ```bash
-    $ brew install postgresql
-    ```
-
-    Ensure you have already initialized a user with username: `postgres` and password: `postgres`( e.g. using `$ createuser -d postgres` command creating one )
-
 * rails 6
 
     Using `rbenv`, update `ruby` up to 2.5 or higher, and install `rails 6.0.0`
@@ -57,7 +49,7 @@ Default password: admin
 * bootstrap 4
 * font-awesome 5
 * figaro
-* postgres
+* mysql2
 * slim
 * simple_form
 * high_voltage

@@ -43,10 +43,10 @@ remove_comment_of_gem
 # gitignore
 get_remote('gitignore', '.gitignore')
 
-# postgresql
-say 'Applying postgresql...'
+# mysql
+say 'Applying mysql...'
 remove_gem('sqlite3')
-gem 'pg', '>= 1.1'
+gem 'mysql2', '~> 0.5.2'
 get_remote('config/database.yml.example')
 get_remote('config/database.yml.example', 'config/database.yml')
 
