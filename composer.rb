@@ -17,7 +17,7 @@ def get_remote(src, dest = nil)
   if ENV['RAILS_TEMPLATE_DEBUG'].present?
     repo = File.join(File.dirname(__FILE__), 'files/')
   else
-    repo = 'https://raw.github.com/dao42/rails-template/master/files/'
+    repo = 'https://raw.github.com/wuminzhe/rails-template/master/files/'
   end
   remote_file = repo + src
   get(remote_file, dest, force: true)
@@ -288,6 +288,6 @@ after_bundle do
   rails_command 'db:seed'
   git :init
   git add: '.'
-  git commit: '-m "init rails with dao42/rails-template"'
+  git commit: '-m "init rails with wuminzhe/rails-template"'
   say "Build successfully! Start `./bin/webpack-dev-server` first, then `cd #{app_name}` and input `rails s` to start your rails app..."
 end

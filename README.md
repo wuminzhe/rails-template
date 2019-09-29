@@ -1,22 +1,22 @@
-# dao42/rails-template
+# wuminzhe/rails-template
 
-**dao42/rails-template has supported the newest rails 6.0.0 project setup**
+**wuminzhe/rails-template has supported the newest rails 6.0.0 project setup**
 
 Maybe the best & newest & fastest rails template for senior rails developer.
 
 It maybe the best starting for your new rails project.
 
-An example built with rails-template: https://github.com/dao42/rails-template-example
+An example built with rails-template: https://github.com/wuminzhe/rails-template-example
 
 
 ## Core Idea
 
-`dao42/rails-template` apply lots of good components for you to make development damn quick.
+`wuminzhe/rails-template` apply lots of good components for you to make development damn quick.
 
-1. `dao42/rails-template` keep the newest easily because it's a real `Rails Application Template`.
-2. `dao42/rails-template` love the newest standard components of Rails 6, using `webpacker` and remove `assets pipeline`.
-3. `dao42/rails-template` is out-of-box for your development based on `bootstrap4`.
-4. `dao42/rails-template` is out-of-box for your deployment based on `mina`.
+1. `wuminzhe/rails-template` keep the newest easily because it's a real `Rails Application Template`.
+2. `wuminzhe/rails-template` love the newest standard components of Rails 6, using `webpacker` and remove `assets pipeline`.
+3. `wuminzhe/rails-template` is out-of-box for your development based on `bootstrap4`.
+4. `wuminzhe/rails-template` is out-of-box for your deployment based on `mina`.
 
 ## How to use
 
@@ -54,7 +54,7 @@ Then,
 
 2. Create your own rails app applying `rails-template`
 
-    `$ rails new myapp -m https://raw.github.com/dao42/rails-template/master/composer.rb`
+    `$ rails new myapp -m https://raw.github.com/wuminzhe/rails-template/master/composer.rb`
 
     Important!! replace `myapp` to your real project name, we will generate lots of example files by this name.
 
@@ -110,18 +110,18 @@ Other gems integrated in rails-template are worth learning seriously.
 
 ## Deployment document
 
-* [How to deploy to ubuntu 16.10 with rails-template step by step(zh-CN)](https://github.com/dao42/rails-template/wiki/how-to-deploy-rails-to-ubuntu1404-with-rails-template)
+* [How to deploy to ubuntu 16.10 with rails-template step by step(zh-CN)](https://github.com/wuminzhe/rails-template/wiki/how-to-deploy-rails-to-ubuntu1404-with-rails-template)
 
 ## Roadmap
 
 * [x] Add AdminLTE as admin dashboard
 
-## Projects that using `dao42/rails-template`
+## Projects that using `wuminzhe/rails-template`
 
-Welcome to pull request here to update this if you choose `dao42/rails-template` for your new rails app.
+Welcome to pull request here to update this if you choose `wuminzhe/rails-template` for your new rails app.
 
 * [danmai weapp SAAS platform](https://www.danmai.com.cn)
-* [dao42 official website](https://www.dao42.com)
+* [wuminzhe official website](https://www.wuminzhe.com)
 
 ## LICENSE
 

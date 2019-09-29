@@ -63,7 +63,7 @@ Default password: admin
 
 ## Built with
 
-[dao42/rails-template](https://github.com/dao42/rails-template)
+[wuminzhe/rails-template](https://github.com/wuminzhe/rails-template)
 
 ## LICENSE
 
