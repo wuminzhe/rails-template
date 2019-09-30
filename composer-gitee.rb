@@ -282,11 +282,10 @@ get_remote 'bin/setup'
 
 after_bundle do
   say 'Almost done! Now init `git` and `database`...'
-  # comment here because db operations are not required in build phase
-  # rails_command 'db:drop'
-  # rails_command 'db:create'
-  # rails_command 'db:migrate'
-  # rails_command 'db:seed'
+  rails_command 'db:drop'
+  rails_command 'db:create'
+  rails_command 'db:migrate'
+  rails_command 'db:seed'
   git :init
   git add: '.'
   git commit: '-m "init rails with wuminzhe/rails-template"'
