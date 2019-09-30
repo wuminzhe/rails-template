@@ -62,6 +62,10 @@ Then,
 
     `$ rails new myapp -m https://gitee.com/wuminzhe/rails-template/raw/master/composer-gitee.rb`
 
+    or using docker
+
+    `docker run --rm -v "$PWD":/usr/src/app wuminzhe/rails6:latest rails new myapp -m https://gitee.com/wuminzhe/rails-template/raw/master/composer-gitee.rb`
+
     Important!! replace `myapp` to your real project name, we will generate lots of example files by this name.
 
 3. Done! Trying to start it.
